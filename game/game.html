@@ -1,0 +1,18 @@
+<head>
+  <title>game</title>
+  <link id="favicon" rel="shortcut icon" type="image/png" href="favicon.png" />
+</head>
+
+<body>
+  <h1>RoboSpel!</h1>
+
+  {{> game}}
+</body>
+
+<template name="game">
+  <canvas id="render" width="16" height="16">RoboSpel LIVE</canvas>
+  <h2>Red <small>{{ game.a.moves }}</small></h2>
+  <p><button class="a forward">Forward</button> <button class="a rotateLeft">Rotate Left</button> <button class="a rotateRight">Rotate Right</button></p>
+  <h2>Blue <small>{{ game.b.moves }}</small></h2>
+  <p><button class="b forward">Forward</button> <button class="b rotateLeft">Rotate Left</button> <button class="b rotateRight">Rotate Right</button></p>
+</template>
