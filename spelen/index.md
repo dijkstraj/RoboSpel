@@ -31,9 +31,21 @@ Na elk commando bewegen de lopende banden op het speelveld ook.
 * Pak drie vellen papier
 * Schrijf op elk vel een commando, je kunt kiezen uit:
     * ↑ 1 tegel vooruit
+
+    <svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 1,0,EAST"></svg>
+
     * ↟ 2 tegels vooruit
+
+    <svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 2,0,EAST"></svg>
+
     * ↶ kwartslag linksom
+
+    <svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 0,0,NORTH"></svg>
+
     * ↷ kwartslag rechtsom
+
+    <svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 0,0,SOUTH"></svg>
+
 * Geef de gekozen commando's aan de robot
 
 ### Commando's uitvoeren
@@ -51,9 +63,16 @@ daarna Robot 2, daarna Robot 3 en tot slot Robot 4.
 Het papier met het uitgevoerde commando wordt geshredderd.
 
 Bij het bewegen geldt dat robots:
+
 * niet door muren kunnen lopen;
 * andere robots voor zich uit duwen;
+
+<svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 1,0,EAST 2,0,EAST" x-robot-2="2,0,NORTH 2,0,NORTH 3,0,NORTH"></svg>
+
 * andere robots niet door muren heen kunnen duwen.
+
+<svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 1,0,EAST 1,0,EAST" x-robot-2="2,0,NORTH 2,0,NORTH 2,0,NORTH"></svg>
+
 
 #### Fase 2: Omgeving
 Robots die op een lopende band staan worden 1 tegel opgeschoven,
