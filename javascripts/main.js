@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $('header h1').bigtext();
+
   var TILESIZE = 60;
   var CONVEYOR_LEFT = '\u25C0';
   var CONVEYOR_RIGHT = '\u25B6';

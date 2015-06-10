@@ -1,7 +1,4 @@
----
-layout: default
-title: spelen
----
+# <a name="spelen"></a>Spelen
 
 ## Doel
 Krijg je robot als eerste bij de vlag.
@@ -81,3 +78,10 @@ De lopende band is niet sterk genoeg om andere robots weg te duwen.
 
 ## Einde
 Wanneer de eerste robot de vlag bereikt heeft dat team gewonnen en is het spel voorbij.
+
+## Variaties
+
+### Extra commando's
+* <i class="fa fa-bolt"></i> Schieten
+* Achteruit
+* Bukken
