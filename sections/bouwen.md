@@ -17,6 +17,8 @@ Zorg dat je een grondoppervlak van ongeveer tien bij tien meter vrij hebt.
 * krijt
 * meetlint
 
+-----
+
 ## Robots
 
 Maak vier robotkostuums.
@@ -28,7 +30,15 @@ Maak vier robotkostuums.
 
 Laat de robots door de kinderen versieren.
 
+-----
+
 ## Speelveld
+
+### Raster
+
+Begin met het aftekenen van een vierkant van vijf bij vijf meter.
+Gebruik hier het krijt voor.
+Een vierkant kan met de volgende stappen geconstrueerd worden:
 
 {% include stap.html stap="1" instructie="Gebruik het touw om een rechte lijn te tekenen van meer dan 5m, markeer punt B op 5m afstand van A" %}
 
@@ -48,7 +58,10 @@ Laat de robots door de kinderen versieren.
 
 {% include stap.html stap="9" instructie="Verbind punten A, D en C om het vierkant af te maken" %}
 
-Voor het speelveld worden de tapijttegels geverfd met pijlen en strepen voor respectievelijk lopende banden en muren. Maak van de losse stukken karton mallen om makkelijker te kunnen verven. Om het raster beter zichtbaar te maken voor de spelers en de robots kunnen de hoeken van de tegels ook geverfd worden.
+{% include stap.html stap="10" instructie="Verdeel elke zijde in 10 gelijke stukken en maak het raster af met tape" %}
+
+
+### Elementen
 
 > ![Tegel]({{site.baseurl}}/images/tegel.png)
 > ![Tegel met lopende band]({{site.baseurl}}/images/tegel-pijl.png)
@@ -56,7 +69,9 @@ Voor het speelveld worden de tapijttegels geverfd met pijlen en strepen voor res
 > 
 > <small>Voorbeeld van een lege tegel, een lopende band en een muur</small>
 
-Maak ongeveer 10% muren, 15% lopende banden en dan dus 75% lege tegels.
+Maak ongeveer 10% muren, 20% lopende banden en dan dus 70% lege tegels.
+
+-----
 
 ## Klaar
 
