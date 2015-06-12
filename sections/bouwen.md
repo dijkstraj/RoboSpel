@@ -63,13 +63,35 @@ Een vierkant kan met de volgende stappen geconstrueerd worden:
 
 ### Elementen
 
-> ![Tegel]({{site.baseurl}}/images/tegel.png)
-> ![Tegel met lopende band]({{site.baseurl}}/images/tegel-pijl.png)
-> ![Tegel met muur]({{site.baseurl}}/images/tegel-muur.png)
-> 
-> <small>Voorbeeld van een lege tegel, een lopende band en een muur</small>
+Om het speelveld een beetje interessant te maken zetten we er lopende banden, draaischijven en muren op.
+Daarnaast hebben we natuurlijk ook een doel nodig om de robots op af te sturen.
 
-Maak ongeveer 10% muren, 20% lopende banden en dan dus 70% lege tegels.
+Plak de volgende elementen rechtstreeks op de vloer:
+
+<div class="row">
+<div class="col-xs-4">
+{% include element.html element="lopendeband" naam="Lopende band" %}
+</div>
+<div class="col-xs-4">
+{% include element.html element="draaischijf-links" naam="Draaischijf linksom" %}
+</div>
+<div class="col-xs-4">
+{% include element.html element="draaischijf-rechts" naam="Draaischijf rechtsom" %}
+</div>
+</div>
+
+Gebruik kartonnen dozen om muren te maken:
+
+<div class="row">
+<div class="col-xs-6">
+{% include element.html element="muur-kaal" naam="Neem een kartonnen doos" %}
+</div>
+<div class="col-xs-6">
+{% include element.html element="muur" naam="Plak er schuine strepen op" %}
+</div>
+</div>
+
+Maak een vlag om als doel te dienen.
 
 -----
 
