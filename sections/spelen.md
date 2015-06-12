@@ -14,7 +14,7 @@ Deze voert ze vervolgens stap voor stap uit.
 ## Voorbereiding
 
 * Leg het speelveld uit
-* Robots gaan in de hoek staan
+* Robots gaan op hun startplaats staan
 * Elk team verzamelt zich bij hun robot
 
 ## Spelverloop

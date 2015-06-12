@@ -21,14 +21,17 @@ Zorg dat je een grondoppervlak van ongeveer tien bij tien meter vrij hebt.
 
 ## Robots
 
-Maak vier robotkostuums.
+Maak vier robothoofden:
 
-* Pak een kleine kartonnen doos
+* Pak vier kleine kartonnen dozen
 * Maak twee gaten of een spleet om door naar buiten te kunnen kijken
+* Gebruik ducktape om de hoofden van 1 t/m 4 te nummeren
+
+{% include_relative sections/parts/startplaatsen.html %}
 
 ### Afwerking
 
-Laat de robots door de kinderen versieren.
+Laat de robothoofden door de kinderen versieren.
 
 -----
 
@@ -79,6 +82,10 @@ Plak de volgende elementen rechtstreeks op de vloer:
 {% include element.html element="draaischijf-rechts" naam="Draaischijf rechtsom" %}
 </div>
 </div>
+
+Plak ook de startplaatsen direct op de vloer:
+
+{% include_relative sections/parts/startplaatsen.html %}
 
 Gebruik kartonnen dozen om muren te maken:
 
