@@ -87,7 +87,18 @@ Gebruik kartonnen dozen om muren te maken:
 </div>
 </div>
 
-Maak een vlag om als doel te dienen.
+Maak tot slot een vlag om als doel te dienen.
+
+-----
+
+## Instructieblokken
+
+* 1 stap vooruit
+* 2 stappen vooruit
+* 1 stap achteruit
+* kwartslag linksom
+* kwartslag rechtsom
+* halve draai
 
 -----
 

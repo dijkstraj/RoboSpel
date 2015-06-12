@@ -7,25 +7,38 @@ Deze voert ze vervolgens stap voor stap uit.
 
 ## Materiaal
 
-* robotkostuums
-* tegels
-* pen en papier
+* 4 robothoofden
+* 4x5 instructieblokken
+* speelveld
 
 ## Voorbereiding
 
 * Leg het speelveld uit
+* Kleed de robots aan
+
+<div class="row">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
+  <img src="{{site.baseurl}}/images/robot_stap1.svg" width="1000px" class="img-responsive"/>
+</div>
+<div class="col-xs-6 col-md-4">
+  <img src="{{site.baseurl}}/images/robot_stap2.svg" width="1000px" class="img-responsive"/>
+</div>
+</div>
+
+
 * Robots gaan op hun startplaats staan
 * Elk team verzamelt zich bij hun robot
 
 ## Spelverloop
 
-Elke beurt kiest elk team drie commando's voor hun robot.
+Elke beurt kiest elk team vijf commando's voor hun robot.
 De robots voeren telkens "tegelijk" een commando uit.
 Na elk commando bewegen de lopende banden op het speelveld ook.
 
 ### Commando's kiezen
 
-* Pak drie vellen papier
+* Beslis met het team welke commando's de robot moet gaan uitvoeren
+* Draai de instructieblokken zo dat de spelleider ze kan zien
 * Schrijf op elk vel een commando, je kunt kiezen uit:
     * ↑ 1 tegel vooruit
 
