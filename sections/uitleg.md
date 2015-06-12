@@ -10,4 +10,4 @@ Vier van de ouders van de kinderen krijgen een kartonnen doos op hun hoofd en zi
 Ze worden op een speelveld van tien bij tien vakken neergezet en ieder aangestuurd door een team van kinderen.
 Het team dat hun robot als eerste bij de vlag weet te brengen heeft gewonnen.
 
-[Bouwen](#bouwen) // [Spelen](#spelen)
+[Bouwen](#bouwen) // [Spelen](#spelen) // [Activiteitenplan](#activiteitenplan)

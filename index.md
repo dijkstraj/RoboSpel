@@ -17,3 +17,5 @@ title: home
 {% include_relative section.html section="bouwen" %}
 
 {% include_relative section.html section="spelen" %}
+
+{% include_relative section.html section="activiteiten" %}
