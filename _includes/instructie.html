@@ -1,8 +1,10 @@
 <div class="col-xs-6 col-sm-4">
   <div class="thumbnail">
-    <img src="{{site.baseurl}}/images/instructies/{{include.instructie}}.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+    <img src="{{site.baseurl}}/images/instructies/{{include.instructie}}.svg" width="1000px" class="img-responsive" style="padding: 10px;" alt="{{include.instructie}}"/>
+{% if include.naam %}
     <div class="caption">
       <p class="text-center">{{include.naam}}</p>
     </div>
+{% endif %}
   </div>
 </div>

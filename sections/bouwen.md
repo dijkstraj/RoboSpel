@@ -16,7 +16,7 @@ Maak vier robothoofden:
 * Maak twee gaten of een spleet om door naar buiten te kunnen kijken
 * Gebruik ducktape om de hoofden van 1 t/m 4 te nummeren
 
-{% include_relative sections/parts/startplaatsen.html %}
+{% include startplaatsen.html %}
 
 ### Afwerking
 
@@ -74,7 +74,7 @@ Plak de volgende elementen rechtstreeks op de vloer:
 
 Plak ook de startplaatsen direct op de vloer:
 
-{% include_relative sections/parts/startplaatsen.html %}
+{% include startplaatsen.html %}
 
 Gebruik kartonnen dozen om muren te maken:
 

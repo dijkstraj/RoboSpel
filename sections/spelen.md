@@ -22,10 +22,10 @@ Deze voert ze vervolgens stap voor stap uit.
 
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-  <img src="{{site.baseurl}}/images/robot_stap1.svg" width="1000px" class="img-responsive"/>
+  <img src="{{site.baseurl}}/images/robot_stap1.svg" width="1000px" class="img-responsive" alt="Neem een ouder en een robothoofd"/>
 </div>
 <div class="col-xs-6 col-md-4">
-  <img src="{{site.baseurl}}/images/robot_stap2.svg" width="1000px" class="img-responsive"/>
+  <img src="{{site.baseurl}}/images/robot_stap2.svg" width="1000px" class="img-responsive" alt="Zet het robothoofd op het hoofd van de ouder"/>
 </div>
 </div>
 
@@ -61,7 +61,7 @@ Misschien moet je een rondje hardlopen of een handstand maken.
 <div class="row">
   <div class="col-xs-3">
     <div class="thumbnail">
-      <img src="{{site.baseurl}}/images/instructies/vooruit.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+      <img src="{{site.baseurl}}/images/instructies/vooruit.svg" width="1000px" class="img-responsive" style="padding: 10px;" alt="Vooruit"/>
     </div>
   </div>
   <div class="col-xs-9">
@@ -71,7 +71,7 @@ Misschien moet je een rondje hardlopen of een handstand maken.
 <div class="row">
   <div class="col-xs-3">
     <div class="thumbnail">
-      <img src="{{site.baseurl}}/images/instructies/vooruit-x2.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+      <img src="{{site.baseurl}}/images/instructies/vooruit-x2.svg" width="1000px" class="img-responsive" style="padding: 10px;" alt="Vooruit x2"/>
     </div>
   </div>
   <div class="col-xs-9">
@@ -81,7 +81,7 @@ Misschien moet je een rondje hardlopen of een handstand maken.
 <div class="row">
   <div class="col-xs-3">
     <div class="thumbnail">
-      <img src="{{site.baseurl}}/images/instructies/achteruit.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+      <img src="{{site.baseurl}}/images/instructies/achteruit.svg" width="1000px" class="img-responsive" style="padding: 10px;" alt="Achteruit"/>
     </div>
   </div>
   <div class="col-xs-9">
@@ -91,7 +91,7 @@ Misschien moet je een rondje hardlopen of een handstand maken.
 <div class="row">
   <div class="col-xs-3">
     <div class="thumbnail">
-      <img src="{{site.baseurl}}/images/instructies/rechtsom.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+      <img src="{{site.baseurl}}/images/instructies/rechtsom.svg" width="1000px" class="img-responsive" style="padding: 10px;" alt="Rechtsom"/>
     </div>
   </div>
   <div class="col-xs-9">
@@ -101,7 +101,7 @@ Misschien moet je een rondje hardlopen of een handstand maken.
 <div class="row">
   <div class="col-xs-3">
     <div class="thumbnail">
-      <img src="{{site.baseurl}}/images/instructies/linksom.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+      <img src="{{site.baseurl}}/images/instructies/linksom.svg" width="1000px" class="img-responsive" style="padding: 10px;" alt="Linksom"/>
     </div>
   </div>
   <div class="col-xs-9">
@@ -111,7 +111,7 @@ Misschien moet je een rondje hardlopen of een handstand maken.
 <div class="row">
   <div class="col-xs-3">
     <div class="thumbnail">
-      <img src="{{site.baseurl}}/images/instructies/halfom.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+      <img src="{{site.baseurl}}/images/instructies/halfom.svg" width="1000px" class="img-responsive" style="padding: 10px;" alt="Halve draai"/>
     </div>
   </div>
   <div class="col-xs-9">
