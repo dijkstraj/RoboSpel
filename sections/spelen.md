@@ -81,7 +81,7 @@ Bij het bewegen geldt dat robots:
 
 * andere robots niet door muren heen kunnen duwen.
 
-<svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 1,0,EAST 1,0,EAST" x-robot-2="2,0,NORTH 2,0,NORTH 2,0,NORTH"></svg>
+<svg class="example" x-grid="-,-,-,❎" x-robot-1="0,0,EAST 1,0,EAST 1,0,EAST" x-robot-2="2,0,NORTH 2,0,NORTH 2,0,NORTH"></svg>
 
 
 #### Fase 2: Omgeving

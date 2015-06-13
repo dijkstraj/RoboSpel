@@ -8,7 +8,9 @@ $(document).ready(function() {
   var CONVEYOR_DOWN = '\u25BC';
   var ROTATE_CW = '\u21BB';
   var ROTATE_CCW = '\u21BA';
+  var WALL = '\u274E';
   var ROBOT_COLORS = ['red', 'blue', 'green', 'yellow'];
+  var wallPattern;
 
   function rot(direction) {
     switch(direction) {
@@ -39,6 +41,18 @@ $(document).ready(function() {
     ).attr({
       fill: '#8e2',
       transform: trans(x, y, direction)
+    });
+  }
+
+  function wall(s, x, y) {
+    return s.rect(
+      TILESIZE / 10, TILESIZE / 10,
+      8 * TILESIZE / 10, 8 * TILESIZE / 10,
+      TILESIZE / 10, TILESIZE / 10 // rounded corners
+    ).attr({
+      fill: wallPattern,
+      stroke: 'black',
+      transform: trans(x, y, 0)
     });
   }
 
@@ -113,6 +127,12 @@ $(document).ready(function() {
 
     var s = Snap(this);
 
+
+    wallPattern = s.group(
+      s.rect(0, 0, 5, 5).attr({fill: 'black'}),
+      s.rect(5, 0, 5, 5).attr({fill: 'yellow'})
+    ).toPattern(0, 0, 10, 5).attr({patternTransform: 'rotate(30) scale(1.5)'});
+
     for (var x = 0; x < width; x++) {
       for (var y = 0; y < height; y++) {
         var tile = s.rect(x * TILESIZE, y * TILESIZE, TILESIZE, TILESIZE);
@@ -133,6 +153,9 @@ $(document).ready(function() {
             break;
           case CONVEYOR_LEFT:
             conveyor(s, x, y, 'WEST');
+            break;
+          case WALL:
+            wall(s, x, y);
             break;
         }
       }
