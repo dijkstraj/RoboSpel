@@ -93,12 +93,18 @@ Maak tot slot een vlag om als doel te dienen.
 
 ## Instructieblokken
 
-* 1 stap vooruit
-* 2 stappen vooruit
-* 1 stap achteruit
-* kwartslag linksom
-* kwartslag rechtsom
-* halve draai
+Maak twintig instructieblokken van kleine kartonnen dozen.
+Plak op elke zijde een instructie.
+Plak daarna op elke zijde een strook zwart om de onderkant aan te geven (zodat je het verschil tussen voor- en achteruit kunt zien).
+
+<div class="row">
+{% include instructie.html instructie="vooruit" naam="1 stap vooruit" %}
+{% include instructie.html instructie="vooruit-x2" naam="2 stappen vooruit" %}
+{% include instructie.html instructie="achteruit" naam="1 stap achteruit" %}
+{% include instructie.html instructie="rechtsom" naam="kwartslag rechtsom" %}
+{% include instructie.html instructie="linksom" naam="kwartslag linksom" %}
+{% include instructie.html instructie="halfom" naam="halve draai" %}
+</div>
 
 -----
 
