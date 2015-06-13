@@ -23,6 +23,15 @@ Zo kun je het [spelen](#spelen).
 * Elk uur wordt het duo afgelost
 * We mikken op ongeveer drie potjes van 15 minuten per shift
 * Het tempo mag best hoog (zodat we mensen niet te lang weghouden van de rest van PIT)
+* Crew:
+  * Araceli
+  * Eva
+  * Jogchem
+  * (Larissa)
+  * Marcel (vanaf 12:00 uur)
+  * Rouke
+  * Tessa (tot 14:30 uur)
+  * (Tetske)
 
 ## PR en werving
 
