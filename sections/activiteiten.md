@@ -8,6 +8,7 @@ Kinderen van 7 t/m 13 jaar en hun ouders.
 
 * Kinderen en ouders enthousiast maken voor CodeSpel
 * Iedereen nog meer plezier laten hebben bij PIT
+* Ontdekken wat we van 7- t/m 13-jarigen kunnen verwachten
 
 ## Beschrijving
 
