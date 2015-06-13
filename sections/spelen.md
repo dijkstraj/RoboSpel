@@ -5,11 +5,15 @@ Krijg je robot als eerste bij de vlag.
 De vier teams kiezen elke beurt drie commando's voor hun robot.
 Deze voert ze vervolgens stap voor stap uit.
 
+-----
+
 ## Materiaal
 
 * 4 robothoofden
 * 4x5 instructieblokken
 * speelveld
+
+-----
 
 ## Voorbereiding
 
@@ -28,6 +32,8 @@ Deze voert ze vervolgens stap voor stap uit.
 
 * Robots gaan op hun startplaats staan
 * Elk team verzamelt zich bij hun robot
+
+-----
 
 ## Spelverloop
 
@@ -142,18 +148,28 @@ Bij het bewegen geldt dat robots:
 
 #### Fase 2: Omgeving
 
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    {% include element.html element="lopendeband" %}
+  </div>
+</div>
+
 Robots die op een lopende band staan worden 1 tegel opgeschoven,
 in de richting van de pijl.
 De lopende band is niet sterk genoeg om andere robots weg te duwen.
 
-Robots die op een draaischijf staan worden 
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    {% include element.html element="draaischijf-links" %}
+  </div>
+  <div class="col-xs-6 col-md-4">
+    {% include element.html element="draaischijf-rechts" %}
+  </div>
+</div>
+Robots die op een draaischijf staan worden een kwartslag gedraaid in de richting van de pijlen. 
+
+-----
 
 ## Einde
 Wanneer de eerste robot de vlag bereikt heeft dat team gewonnen en is het spel voorbij.
 
-## Variaties
-
-### Extra commando's
-* <i class="fa fa-bolt"></i> Schieten
-* Achteruit
-* Bukken
