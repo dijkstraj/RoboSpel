@@ -1,4 +1,4 @@
-# RoboSpel
+# RoboSpel [![Build Status](https://travis-ci.org/dijkstraj/RoboSpel.svg?branch=gh-pages)](https://travis-ci.org/dijkstraj/RoboSpel)
 Programmeer je robot naar de vlag!
 
 Vier robots strijden om de overwinning.
