@@ -31,46 +31,102 @@ Deze voert ze vervolgens stap voor stap uit.
 
 ## Spelverloop
 
-Elke beurt kiest elk team vijf commando's voor hun robot.
+Elke beurt laden de teams eerst de batterijen van hun robot op.
+Daarna kiest elk team vijf instructies voor hun robot.
 De robots voeren telkens "tegelijk" een commando uit.
-Na elk commando bewegen de lopende banden op het speelveld ook.
+Na elke instructie bewegen de lopende banden en draaischijven op het speelveld ook.
 
-### Commando's kiezen
+### Robot opladen
+
+Helaas gaan de batterijen van de robots heel snel leeg.
+Ze hebben net genoeg stroom om vijf instructies uit te voeren.
+Elke beurt moeten de robots dus eerst opgeladen worden.
+Het is aan de spelleider om te vertellen hoe dat moet gebeuren.
+Misschien moet je een rondje hardlopen of een handstand maken.
+
+### Instructies kiezen
 
 * Beslis met het team welke commando's de robot moet gaan uitvoeren
-* Draai de instructieblokken zo dat de spelleider ze kan zien
-* Schrijf op elk vel een commando, je kunt kiezen uit:
-    * ↑ 1 tegel vooruit
+* Maak een toren van de vijf instructieblokken
+* Draai ze zo dat de spelleider ze goed kan zien
 
-    <svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 1,0,EAST"></svg>
+<blockquote>
+<h3>Instructies</h3>
+<div class="row">
+  <div class="col-xs-3">
+    <div class="thumbnail">
+      <img src="{{site.baseurl}}/images/instructies/vooruit.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+    </div>
+  </div>
+  <div class="col-xs-9">
+    <svg class="example" x-grid="-,-,-,-" x-robot-1="1,0,EAST 2,0,EAST"></svg>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-3">
+    <div class="thumbnail">
+      <img src="{{site.baseurl}}/images/instructies/vooruit-x2.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+    </div>
+  </div>
+  <div class="col-xs-9">
+    <svg class="example" x-grid="-,-,-,-" x-robot-1="1,0,EAST 3,0,EAST"></svg>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-3">
+    <div class="thumbnail">
+      <img src="{{site.baseurl}}/images/instructies/achteruit.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+    </div>
+  </div>
+  <div class="col-xs-9">
+    <svg class="example" x-grid="-,-,-,-" x-robot-1="1,0,EAST 0,0,EAST"></svg>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-3">
+    <div class="thumbnail">
+      <img src="{{site.baseurl}}/images/instructies/rechtsom.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+    </div>
+  </div>
+  <div class="col-xs-9">
+    <svg class="example" x-grid="-,-,-,-" x-robot-1="1,0,EAST 1,0,SOUTH"></svg>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-3">
+    <div class="thumbnail">
+      <img src="{{site.baseurl}}/images/instructies/linksom.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+    </div>
+  </div>
+  <div class="col-xs-9">
+    <svg class="example" x-grid="-,-,-,-" x-robot-1="1,0,EAST 1,0,NORTH"></svg>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-3">
+    <div class="thumbnail">
+      <img src="{{site.baseurl}}/images/instructies/halfom.svg" width="1000px" class="img-responsive" style="padding: 10px;"/>
+    </div>
+  </div>
+  <div class="col-xs-9">
+    <svg class="example" x-grid="-,-,-,-" x-robot-1="1,0,EAST 1,0,WEST"></svg>
+  </div>
+</div>
+</blockquote>
 
-    * ↟ 2 tegels vooruit
+### Instructies uitvoeren
 
-    <svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 2,0,EAST"></svg>
-
-    * ↶ kwartslag linksom
-
-    <svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 0,0,NORTH"></svg>
-
-    * ↷ kwartslag rechtsom
-
-    <svg class="example" x-grid="-,-,-,-" x-robot-1="0,0,EAST 0,0,SOUTH"></svg>
-
-* Geef de gekozen commando's aan de robot
-
-### Commando's uitvoeren
-
-Het uitvoeren van de commando's gebeurt in drie stappen.
-Elke stap bestaat weer uit twee fases.
+Het uitvoeren van de instructies gebeurt in vijf stappen.
+Elke stap bestaat weer uit twee fases:
 
 1. Robots bewegen
 2. Omgeving beweegt
 
 #### Fase 1: Robots
-Elke robot pakt het eerstvolgende commando van de stapel.
-Robot 1 voert als eerste haar commando uit,
+
+Elke stap pakt elk team de bovenste instructie van de stapel.
+Robot 1 voert als eerste haar instructie uit,
 daarna Robot 2, daarna Robot 3 en tot slot Robot 4.
-Het papier met het uitgevoerde commando wordt geshredderd.
 
 Bij het bewegen geldt dat robots:
 
@@ -85,9 +141,12 @@ Bij het bewegen geldt dat robots:
 
 
 #### Fase 2: Omgeving
+
 Robots die op een lopende band staan worden 1 tegel opgeschoven,
 in de richting van de pijl.
 De lopende band is niet sterk genoeg om andere robots weg te duwen.
+
+Robots die op een draaischijf staan worden 
 
 ## Einde
 Wanneer de eerste robot de vlag bereikt heeft dat team gewonnen en is het spel voorbij.
