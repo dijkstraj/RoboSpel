@@ -19,19 +19,21 @@ Zo kun je het [spelen](#spelen).
 ## Planning
 
 * Het evenement duurt van 12:00 tot 17:00 uur
-* Er zijn op elk moment twee mensen tegelijk bezig
+* Opbouwen vanaf 10:00 uur
+* Er zijn op elk moment twee mensen tegelijk bezig op het speelveld
 * Elk uur wordt het duo afgelost
 * We mikken op ongeveer drie potjes van 15 minuten per shift
 * Het tempo mag best hoog (zodat we mensen niet te lang weghouden van de rest van PIT)
 * Crew:
-  * Araceli
-  * Eva
-  * Jogchem
-  * (Larissa)
-  * Marcel (vanaf 12:00 uur)
-  * Rouke
-  * Tessa (tot 14:30 uur)
-  * (Tetske)
+  * Araceli <span class="label label-info">opperhoofd</span>
+  * Eva <span class="label label-info">crew</span>
+  * Jogchem <span class="label label-info">toernooileider</span>
+  * Koen (12:00 tot 14:00 uur) <span class="label label-info">fotograaf</span>
+  * (Larissa) <span class="label label-info">crew</span>
+  * Marcel (vanaf 12:00 uur) <span class="label label-info">crew</span>
+  * Rouke <span class="label label-info">onderzoeker</span>
+  * Tessa (tot 14:30 uur) <span class="label label-info">crew</span>
+  * (Tetske) <span class="label label-info">crew</span>
 
 ## PR en werving
 
